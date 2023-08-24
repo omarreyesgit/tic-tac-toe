@@ -1,0 +1,47 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+/* board */
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem
+}
+
+/* board */
+
+/* square */
+.square {
+  border: 1px solid #999;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+
+}
+
+/* square */
+
+/* turns */
+.turn-contanier {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+  gap: 1rem;
+}
+
+.player-active {
+  background-color: rgb(19, 121, 161);
+  border-bottom: 3px solid rgb(13, 247, 235);
+}
+
+/* turns */
